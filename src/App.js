@@ -24,7 +24,7 @@ export default function App() {
         foot on the moon or when rovers were sent to roam around on Mars.
       </TextExpander>
 
-      <TextExpander expanded={true} className="box">
+      <TextExpander buttonInline={false} className="box">
         Space missions have given us incredible insights into our universe and
         have inspired future generations to keep reaching for the stars. Space
         travel is a pretty cool thing to think about. Who knows what we'll
@@ -34,7 +34,12 @@ export default function App() {
   );
 }
 
-function TextExpander() {
+function TextExpander({collapsedNumWords,
+  expandButtonText,
+  collapseButtonText,
+  buttonColor,
+  buttonInline,
+  className}) {
   return <div>TODO</div>;
 }
 
