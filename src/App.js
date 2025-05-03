@@ -42,6 +42,6 @@ function TextExpander({collapsedNumWords,
   className,
   children
 }) {
-  return <div className={className}>{children}</div>;
+  return <div className={className}><span>{children}</span><button>{collapseButtonText}</button></div>;
 }
 
