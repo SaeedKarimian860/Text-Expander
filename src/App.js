@@ -39,7 +39,9 @@ function TextExpander({collapsedNumWords,
   collapseButtonText,
   buttonColor,
   buttonInline,
-  className}) {
-  return <div>TODO</div>;
+  className,
+  children
+}) {
+  return <div className={className}>{children}</div>;
 }
 
