@@ -35,7 +35,6 @@ export default function App() {
   );
 }
 
-
 function TextExpander({
   collapsedNumWords = 10,
   expandButtonText = "Show more",
